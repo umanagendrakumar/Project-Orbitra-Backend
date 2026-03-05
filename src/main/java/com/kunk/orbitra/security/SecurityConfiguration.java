@@ -38,7 +38,7 @@ public class SecurityConfiguration {
         org.springframework.web.cors.CorsConfiguration configuration =
                 new org.springframework.web.cors.CorsConfiguration();
 
-        configuration.setAllowedOriginPatterns(java.util.List.of("https://project-orbitra.vercel.app", "http://localhost:5173/"));
+        configuration.setAllowedOriginPatterns(java.util.List.of("https://project-orbit-alpha.vercel.app/", "http://localhost:5173/"));
         configuration.setAllowedMethods(
                 java.util.List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
         );
